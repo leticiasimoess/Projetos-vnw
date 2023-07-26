@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-size: cover;
+  background-image: url("img/fundo.png");
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  background: transparent;
+}
+
+header section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-right: 20vh;
+  width: 34vw;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 42vw;
+  /* border: solid green; */
+}
+
+li {
+  font-size: 14px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+main section {
+  height: 100vh;
+  width: 32vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("img/mago.png");
+}
+
+main section figure {
+  display-inline: block;
+  text-align: center;
+  margin-top: 45vh;
+}
+
+.button {
+  margin-top: 1rem;
+  background-color: black;
+  width: 238px;
+  height: 50px;
+  border-radius: 0.51rem;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(#e51320, #b6101a, #e51320);
+  cursor: pointer;
+  margin-left: 14vh;
+}
+
+.button:hover {
+  width: 258px;
+  height: 70px;
+  transition: 0.5s;
+  font-size: 1.2rem;
+}
+
+footer {
+  font-size: 12px;
+  padding-left: 10px;
+  text-align: left;
+  color: #ffffff;
+  display: inline-block;
+  width: 400px;
+  height: 30px;
+}

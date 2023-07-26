@@ -1,0 +1,115 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-weight: 500;
+  font-size: 40px;
+  padding-bottom: 3px;
+}
+
+h3{
+  font-weight: 500;
+  font-size: 22px;
+}
+
+body{
+  background-color: #2CB3F3;
+  max-width: 1900px;
+  margin: 0 auto;
+}
+
+header{
+  height: 135px;
+}
+
+.container-titles{
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.capuz-finn{
+  background-color: #FFFFFF;
+  width: 600px;
+  height: 400px;
+  border-top-left-radius: 16%;
+  border-top-right-radius: 16%;
+  position: absolute;
+  left: 22em;
+}
+
+.face-finn{
+  background-color: #FFE1C9;
+  width: 34rem;
+  height: 22rem;
+  position: absolute;
+  left: 1.7em;
+  top: 1.7em;
+  border-radius: 100%;
+}
+
+.left-eye{
+  background-color: #000000;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  top: 4em;
+  left: 8em;
+}
+
+.right-eye{
+  background-color: #000000;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  top: 4em;
+  right: 8em;
+}
+
+.smile-mouth-finn{
+  width: 210px;
+  height: 100px;
+  position: absolute;
+  left: 9em;
+  top: 12em;
+}
+
+input{
+  width: 255px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 3px;
+  padding-left: 6px;
+}
+
+input::placeholder{
+  color: #CCCCCC;
+}
+
+.button-login{
+  background-color: #55A603;
+  color: #B2F272;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  box-shadow: 1px 3px 2px 2px rgba(16,31,1,0.84);
+  position: absolute;
+  left: 39em;
+  top: 38em;
+}
+
+.button-login:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.2s ease;
+}
